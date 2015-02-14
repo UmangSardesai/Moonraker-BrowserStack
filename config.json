@@ -1,0 +1,28 @@
+{
+  "baseUrl": "http://www.laterooms.com",
+  "featuresDir": "tests/features",
+  "stepsDir": "tests/steps",
+  "resultsDir": "results",
+  "reporter": "moonraker",
+  "threads": 1,
+
+  "testTimeout": 60000,
+  "elementTimeout": 5000,
+
+  "tags": "!@wip",
+
+  "seleniumServer": "http://hub.browserstack.com/wd/hub",
+  
+  "browser": {
+	"browserstack.user": "<username>",
+    "browserstack.key": "<automate-key>",
+    "browser": "Safari",
+    "browser_version": "8.0",
+    "os": "OS X",
+	"browserstack.debug":"true",
+	"build":"Moonraker Tests",
+    "os_version": "Yosemite",
+    "resolution": "1920x1080"
+    }
+  
+}
