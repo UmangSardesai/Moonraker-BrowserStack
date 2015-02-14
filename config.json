@@ -16,7 +16,7 @@
   "browser": {
 	"browserstack.user": "<username>",
     "browserstack.key": "<automate-key>",
-    "browser": "Safari",
+    "browserName": "Safari",
     "browser_version": "8.0",
     "os": "OS X",
 	"browserstack.debug":"true",
